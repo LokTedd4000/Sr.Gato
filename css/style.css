@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(71, 55, 212);
+  text-align: center;
+  margin: 15px;
+}
+
+nav {
+  background: rgb(22, 1, 43);
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: azure;
+  text-decoration: none;
+  margin: 0 13px;
+  padding: 13px;
+  transition: background 0.7s ease-in-out;
+}
+
+nav ul{
+    list-style-position: inside;
+    border-style: double;
+}
+
+nav a:hover {
+  background: rgb(145, 8, 126);
+  padding: 13px;
+}
+
+.container {
+    background: #50619b;
+    margin: 0;
+}
+
+.headings {
+  background: rgb(1, 1, 100);
+  padding: 40px;
+}
+
+.headings h1 {
+    color: #cac6ff;
+    background: #010164;
+    padding: 0 40px;
+  }
+
+.srgatobebe {
+    background: #5e71b3;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.myhistory {
+    background: #132b7a;
+    text-align: center;
+    padding: 10px 50px;
+    color: #cac6ff;
+}
+
+.myhistory ul {
+    background: #132b7a;
+    text-align: center;
+    padding: 0px 50px;
+    color: #cac6ff;
+}
+
+.contacts {
+    text-decoration: none;
+    background: #010164;
+    color: #cac6ff;
+    text-align: center;
+    padding: 30px;
+}
+
+#curios {
+    background: #132b7a;
+    text-align: center;
+    list-style-type: circle;
+    padding: 15px;
+    margin: 0px;
+    list-style-position: inside;
+    color: #0084ff;
+}
+
+.bd {
+    border-style: double;
+}
+
+li {
+    padding: 5px;
+}
